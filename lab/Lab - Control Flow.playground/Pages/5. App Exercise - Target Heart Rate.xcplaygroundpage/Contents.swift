@@ -15,8 +15,21 @@ let currentAverage = 67
 //let currentAverage = 95
 
 //insert your code here
-
+let isAverage:Bool
+let isBelowAverage:Bool
+let isAboveAverage:Bool
+if(currentAverage >= targetUpperBound){
+    isAboveAverage = true
+    print("You're on the right track")
+}
+if(currentAverage <= 78){
+    isBelowAverage = true
+    print("You need to study more often")
+}
+if(currentAverage > 78 && currentAverage < 90){
+    isAverage = true
+    print("You're doing great, but try to push it a bit")
+}
 //print the results from each current average here.
-
-
+    
 //: [Previous](@previous)  |  page 5 of 9  |  [Next](@next)

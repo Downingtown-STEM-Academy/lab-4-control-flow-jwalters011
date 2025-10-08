@@ -6,12 +6,7 @@
 let totalQuestions: Int = 20
 let correctQuestions: Int = 18
 
-if Double(correctQuestions) / Double(totalQuestions) < 0.70 {
-    print("You need to study more!")
-} else {
-    print("You're doing great.")
-}
 
-
+Double(correctQuestions) / Double(totalQuestions) < 0.70 ? print("You need to study more!") : print("You're doing great.")
 
 //: [Previous](@previous)  |  page 9 of 9
